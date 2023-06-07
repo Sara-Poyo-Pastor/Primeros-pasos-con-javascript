@@ -1,0 +1,23 @@
+h1{
+    margin: 20px;
+    text-align: center;
+    color: blue;
+    font-size: 50px;
+    font-weight: 700px;
+    text-decoration: underline;
+}
+
+.cardContainer{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    margin: 10px;
+}
+.card-header{
+    font-size: 28px;
+    text-decoration: underline;
+    font-weight: 500;
+    font-style: italic;
+}

@@ -5,32 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primeros pasos con javascript</title>
-    <script src="./main.js"></script>
-</head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script></head>
+    <link rel="stylesheet" href="style.css">
+    
+
 <body>
     <h1>Primeros pasos con javascript</h1>
-    <h2>Declaracion de variables</h2>
-        <h3><script>document.write (numero1)</script><br></h3>
-        <h3><script>document.write (numero2)</script><br></h3>
-        <h3><script>document.write (cadena1)</script><br></h3>
-        <h3><script>document.write (cadena2)</script><br></h3>
-        <h3><script>document.write (bool1)</script><br></h3>
-        <h3><script>document.write (bool2)</script><br></h3>
-    <h2>Operaciones basicas</h2>
-        <h3>suma: <script>document.write (suma)</script></h3>
-        <h3>resta: <script>document.write (resta)</script></h3>
-        <h3>multiplicación: <script>document.write (multiplicacion)</script></h3>
-        <h3>división: <script>document.write (division)</script></h3>
-    <h2>Concatenación de variables</h2>
-        <h3>concatenación: <script>document.write (lugar)</script></h3>
-    <h2>Funciones</h2>
-        <h3 id="saludo">Hola<br></h3>
-        <h3 id="resultado"><br></h3>
-        <h3 id="mensaje"><br></h3>
+    <div class="cardContainer">
+        <div class="card-header">Declaración de variables</div>
+        <div class="card-body">
+          <p id="var1">Número: </p>
+          <p id="var2">Número: </p>
+          <p id="string1">Cadena: </p>
+          <p id="string2">Cadena: </p>
+          <p id="bool1"></p>
+          <p id="bool2"></p>
 
-    
-
-    
-
+        </div>
+      </div>
+      <div class="cardContainer">
+        <div class="card-header">Operaciones básicas</div>
+        <div class="card-body">
+          <p id="suma">El resultado de la suma es </p>
+          <p id="resta">El resultado de la resta es </p>
+          <p id="multiplicacion">El resultado de la multiplicación es </p>
+          <p id="division">El resultado de la división es </p>
+        </div>
+      </div>
+      <div class="cardContainer">
+        <div class="card-header">Concatenación de variables</div>
+        <div class="card-body">
+          <p id="conca""></p>
+          <p id="conca2"></p>
+        </div>
+      </div>
+      <div class="cardContainer">
+        <div class="card-header">Funciones</div>
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="cardContainer">
+        <div class="card-header">Objetos</div>
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="cardContainer">
+        <div class="card-header">Arrays</div>
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="cardContainer">
+        <div class="card-header">Manipulación del DOM</div>
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <script src="javascritp/variables.js"></script>
+      <script src="javascritp/operaciones.js"></script>
+      <script src="javascritp/concatenaciones.js"></script>
 </body>
 </html>
