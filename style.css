@@ -1,23 +1,27 @@
 h1{
     margin: 20px;
     text-align: center;
-    color: blue;
+    color: rgb(72, 173, 1);
     font-size: 50px;
     font-weight: 700px;
     text-decoration: underline;
 }
 
 .cardContainer{
-    background-color: antiquewhite;
+    background-color: rgb(219, 251, 180);
     border-radius: 10px;
     padding-top: 20px;
     padding-left: 30px;
     padding-bottom: 20px;
-    margin: 10px;
+    margin: 15px auto;
+    width: 80%;
+    
+   
 }
 .card-header{
     font-size: 28px;
     text-decoration: underline;
     font-weight: 500;
     font-style: italic;
+    color: rgb(72, 173, 1);
 }
