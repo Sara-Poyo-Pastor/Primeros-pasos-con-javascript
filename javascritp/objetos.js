@@ -1,34 +1,37 @@
-let carro = {
+let coche = {
     marca: "Opel",
     color: "azul marino",
     año: 2018,
     puertas: 4,
     motor: {
-      tipo: "V6",
-      cilindros: 6,
-      potencia: "120 hp"
+      tipo: "gasolina",
+      cilindros: 8,
+      potencia: "120 caballos"
     }
   };
   
-  function obtenerMarcaCarro() {
-    let marca = carro.marca;
-    console.log("La marca del carro es: " + marca);
-    document.write("<p>La marca del carro es: " + marca + "</p>");
+  function obtenerMarca() {
+    let marca = coche.marca;
+    console.log(marca);
+    document.getElementById("marcaCoche").innerHTML += "La marca del coche es: " + marca;
     return marca;
   }
-  
-  function obtenerCantidadPuertas() {
-    let puertas = carro.puertas;
-    console.log("El carro tiene " + puertas + " puertas");
-    document.write("<p>El carro tiene " + puertas + " puertas</p>");
+  obtenerMarca();
+
+  function obtenerNumeroPuertas() {
+    let puertas = coche.puertas;
+    console.log("El coche tiene " + puertas + " puertas");
+    document.getElementById("numeroPuertas").innerHTML += "El coche tiene " + puertas + " puertas";
     return puertas;
   }
-  
-  function obtenerAtributoMotor(atributo) {
-    var valor = carro.motor[atributo];
-    console.log("El atributo " + atributo + " del motor es: " + valor);
-    document.write("<p>El atributo " + atributo + " del motor es: " + valor + "</p>");
-    return valor;
+  obtenerNumeroPuertas();
+
+  function obtenerAtributo(atributo) {
+    var anidado = coche.motor[atributo];
+    console.log("El atributo " + atributo + " del motor es: " + anidado);
+    document.getElementById("atributo").innerHTML += "El atributo " + atributo + " del motor es: " + anidado + "<br>";
+    return anidado;
   }
-   
-  obtenerAtributoMotor("tipo");
+  
+  obtenerAtributo("tipo");
+  obtenerAtributo("cilindros");
