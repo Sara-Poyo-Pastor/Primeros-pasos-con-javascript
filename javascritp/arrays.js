@@ -27,7 +27,6 @@ function eliminarNumerosPares(array) {
 }
 eliminarNumerosPares(numeros);
 
-
 function obtenerNumeroMayor(array) {
   let mayor = array[0];
   for (let i = 1; i < array.length; i++) {
@@ -70,7 +69,6 @@ function convertirEnMayusculas(texto) {
   return textoMayusculas;
 }
 convertirEnMayusculas("la casa de mi abuelo está muy lejos");
-
 
 function convertirPrimeraLetraMayuscula(nombres) {
   let nombresConvertidos = [];
