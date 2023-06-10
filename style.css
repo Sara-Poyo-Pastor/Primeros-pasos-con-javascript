@@ -1,7 +1,10 @@
+body{
+    background-color: cadetblue;
+}
 h1{
     margin: 20px;
     text-align: center;
-    color: rgb(72, 173, 1);
+    color: rgb(222, 247, 57);
     font-size: 50px;
     font-weight: 700px;
     text-decoration: underline;
@@ -15,9 +18,8 @@ h1{
     padding-bottom: 20px;
     margin: 15px auto;
     width: 80%;
-    
-   
 }
+
 .card-header{
     font-size: 28px;
     text-decoration: underline;
